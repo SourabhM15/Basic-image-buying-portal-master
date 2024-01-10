@@ -8,6 +8,7 @@ import { CartProvider } from './context/CartContext';
 
 const App = () => {
   return (
+    <BrowserRouter basename="/Basic-image-buying-portal-master"> 
     <CartProvider>
       <Router>
         <Routes>
@@ -16,6 +17,7 @@ const App = () => {
         </Routes>
       </Router>
     </CartProvider>
+    </BrowserRouter>
   );
 };
 
